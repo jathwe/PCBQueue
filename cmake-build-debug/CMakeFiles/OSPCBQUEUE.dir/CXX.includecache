@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sunday/CLionProjects/OSPCBQUEUE/LinkedList.h
+iostream
+-
+
+/home/sunday/CLionProjects/OSPCBQUEUE/PCB.h
+iostream
+-
+
+/home/sunday/CLionProjects/OSPCBQUEUE/PCBQueue.h
+LinkedList.h
+/home/sunday/CLionProjects/OSPCBQUEUE/LinkedList.h
+PCB.h
+/home/sunday/CLionProjects/OSPCBQUEUE/PCB.h
+
+/home/sunday/CLionProjects/OSPCBQUEUE/main.cpp
+iostream
+-
+PCB.h
+/home/sunday/CLionProjects/OSPCBQUEUE/PCB.h
+PCBQueue.h
+/home/sunday/CLionProjects/OSPCBQUEUE/PCBQueue.h
+scheduler.h
+/home/sunday/CLionProjects/OSPCBQUEUE/scheduler.h
+
+/home/sunday/CLionProjects/OSPCBQUEUE/scheduler.h
+PCB.h
+/home/sunday/CLionProjects/OSPCBQUEUE/PCB.h
+PCBQueue.h
+/home/sunday/CLionProjects/OSPCBQUEUE/PCBQueue.h
+fstream
+-
+vector
+-
+

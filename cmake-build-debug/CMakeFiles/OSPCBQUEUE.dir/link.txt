@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/OSPCBQUEUE.dir/main.cpp.o  -o OSPCBQUEUE 
